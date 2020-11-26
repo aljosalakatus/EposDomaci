@@ -12,7 +12,7 @@
 }
 
 .header {
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed; /* Set the header to fixed position */
   top: 0;
 }
 
@@ -55,6 +55,7 @@ nav {
     border-radius: 4px;
     background-color: transparent;
     
+    
 
 }
 .nav-links ul li {
@@ -88,30 +89,50 @@ nav {
 }
 
 .div22 {
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: 10px;
 }
 
-.div2 p {
+.div22 p {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 400px;
     color: white;
     text-shadow: 2px 2px black;
    
 }
 
-
-
 #id1 {
     margin-top: 300px;
 }
 
 #id2{
+    margin-top:20px;
     font-size: 20px;
 }
+
+
+#id3{
+    margin-top:50px;
+    margin-left:500px;
+    font-size: 30px;
+}
+
+#id4 {
+    margin-left:600px;
+    width: 70px;
+    height: 70px;
+}
+
+#id5{
+    margin-top:5px;
+    margin-left: -75px;
+    width: 70px;
+    height: 70px;
+}
+
 
 
 .div3 {
@@ -123,7 +144,7 @@ nav {
     margin-left: 40px; */
     background-image: url("images/shop.png");
     background-size: 100vw 650px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     
     
 }
