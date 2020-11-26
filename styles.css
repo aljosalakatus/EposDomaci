@@ -58,6 +58,7 @@ nav {
 
 .nav-links ul li:hover {
     background-color:#0e5279;
+    
 }
 
 .nav-links ul li a {
@@ -83,6 +84,7 @@ nav {
 
 .div22 {
     margin-top: 80px;
+    margin-left: 10px;
 }
 
 .div2 p {
@@ -92,7 +94,7 @@ nav {
     margin-top: 10px;
     width: 400px;
     color: white;
-    ;
+    text-shadow: 2px 2px black;
    
 }
 
@@ -162,6 +164,10 @@ nav {
     margin-left:80px;
 }
 
+#adresa textarea{
+    resize: none;
+}
+
 #adresa label {
     margin-top: 20px;
     font-size: 30px;  
@@ -178,6 +184,10 @@ nav {
     flex-direction: column;
 }
 
+#cena textarea{
+    resize: none;
+}
+
 #cena label {
     font-size: 30px; 
 }
@@ -186,6 +196,10 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+}
+
+#rok textarea{
+    resize: none;
 }
 
 #rok label {
