@@ -94,15 +94,17 @@ nav {
  }
 
 .kontakt{
-    width: 50%;
+    width: 40%;
     margin-top: 100px;
+   
 }
  h3{
      font-size: 40px;
+     border-radius: 10px;
+    background-color: #3b9cd6;
  }
 
  .kontakt-informacije{
-     
      margin-left:50px;
      font-size: 20px;
  }
@@ -142,8 +144,10 @@ nav {
 }
 
 .forma{
-    width:50%;
+    width:45%;
     margin-top: 100px;
+    margin-left: 100px;
+    
 }
 
 #kontaktForma{
@@ -152,7 +156,7 @@ nav {
 }
 
 #kontaktForma div{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 button {
