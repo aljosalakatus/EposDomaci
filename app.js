@@ -1,10 +1,10 @@
 
 function skrol() {
-    document.getElementById("id4").addEventListener("onclick", myFunction);
+    document.getElementById("id4").addEventListener("click", myFunction);
 }
 
 function myFunction() {
-    alert ("Hello World!");
+    window.scrollBy(0,1000);
   }
 
 function prikaz() {
