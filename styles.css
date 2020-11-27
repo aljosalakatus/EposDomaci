@@ -136,7 +136,7 @@ nav {
     text-shadow: 2px 2px black;
 }
 
- /* #id4 {
+  /* #id4 {
     margin-left:350px;
     width: 70px;
     height: 70px;
@@ -211,12 +211,15 @@ nav {
 #adresa {
     display:flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 10px;
     margin-left:80px;
 }
 
 #adresa textarea{
     resize: none;
+    font-size: 25px;
+    width: 350px;
+    height: 33px;
 }
 
 #adresa label {
@@ -237,6 +240,9 @@ nav {
 
 #cena textarea{
     resize: none;
+    font-size: 25px;
+    height: 33px;
+    width: 150px;
 }
 
 #cena label {
@@ -251,6 +257,9 @@ nav {
 
 #rok textarea{
     resize: none;
+    font-size: 25px;
+    height: 33px;
+    width: 180px;
 }
 
 #rok label {
