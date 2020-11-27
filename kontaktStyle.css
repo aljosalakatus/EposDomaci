@@ -31,6 +31,7 @@ nav {
     border-bottom-color: #3b9cd6;
 }
 
+
 .logo {
     flex-basis: 10%;
 }
@@ -65,6 +66,7 @@ nav {
     margin: 10px;
 }
 
+
 .nav-links ul li a {
     color:#3b9cd6;
     text-decoration: none;   
@@ -77,6 +79,20 @@ nav {
     border-radius: 5px;
     
 }
+
+.nav-links ul li a:hover {
+    background-color:#3b9cd6;
+    color: white;
+    
+}
+
+.nav-links ul li a {
+        color:#3b9cd6;
+        text-decoration: none;
+        
+       
+ }
+
 
  h3{
      font-size: 40px;
