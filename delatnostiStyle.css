@@ -97,7 +97,7 @@ nav {
   .parent div{
     background-color: gray;
     color: wheat;
-    margin: 5px;
+    margin: 10px;
     width: 40%; 
     height: 150px;
 } 
@@ -110,6 +110,15 @@ nav {
     justify-content: space-around;
     margin-top:80px;
   
+}
+
+.parent img{
+    width: 400px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 /* #div1{
     flex: 1; 
