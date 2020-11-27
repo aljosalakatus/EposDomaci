@@ -7,7 +7,9 @@ function myFunction() {
     alert ("Hello World!");
   }
 
-
+function prikaz() {
+    document.getElementsByClassName("div22").style.opacity("1");
+}
 
 
 
