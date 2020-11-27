@@ -26,10 +26,15 @@ nav {
     align-items:center;
     background-color: white;
     /* background: linear-gradient(to right,rgb(108, 109, 110) ,rgb(165, 169, 172)); */
+    border-bottom-style:solid ;
+    border-bottom-width: 5px;
+    border-bottom-color: #3b9cd6;
+
 }
 
 .logo {
     flex-basis: 10%;
+    
 }
 .logo img{
     margin-left: 40px;
@@ -103,6 +108,7 @@ nav {
     text-shadow: 2px 2px black;
     font-size:20px;
     width: 300px;
+    
    
 }
 
@@ -290,7 +296,7 @@ footer img{
     height:50px;
 }
 #f1{
-    width:40%;
+    width:50%;
     display:flex;
     text-align: left;
     vertical-align: middle;
@@ -300,7 +306,7 @@ footer img{
 
 }
 #f2,#f3{
-    width:28%;
+    width:25%;
     display: flex;
     text-align: left;
     vertical-align: middle;
