@@ -108,6 +108,7 @@ nav {
     flex-direction: row; 
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top:80px;
   
 }
 /* #div1{
@@ -133,6 +134,7 @@ nav {
     background-color: rgb(56, 130, 190);
     width: 100%;
     height:60px;
+    margin-top:150px;
    
 }
  #prviDiv h1{
