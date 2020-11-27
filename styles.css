@@ -62,17 +62,20 @@ nav {
     margin: 10px;
 }
 
-.nav-links ul li:hover {
-    background-color:#0e5279;
+.nav-links ul li a {
+    color:#3b9cd6;
+    text-decoration: none;   
+}
+
+.nav-links ul li a:hover {
+    
+    background-color:#3b9cd6;
+    color:white;
+    border-radius: 5px;
     
 }
 
-.nav-links ul li a {
-        color:rgb(29, 121, 196);
-        text-decoration: none;
-        
-       
- }
+
 
 
 .div2 {
@@ -88,49 +91,58 @@ nav {
     
 }
 
-.div22 {
-    margin-top: 0px;
-    margin-left: 10px;
-}
 
-.div22 p {
+
+.div22  {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: 50px;
+    margin-top: 300px;
     width: 400px;
     color: white;
     text-shadow: 2px 2px black;
+    font-size:20px;
+    width: 300px;
    
 }
 
-#id1 {
-    margin-top: 300px;
+#dugme {
+    color:white;
+    background-color:#3b9cd6 ;
+    width:170px;
+    text-align: center;
+    border-radius: 5px;
+    font-style: normal;
+    text-decoration: none;
 }
 
-#id2{
-    margin-top:20px;
-    font-size: 20px;
+#dugme:hover {
+    background-color: white;
+    color:#3b9cd6;
+    text-shadow: none;
 }
-
 
 #id3{
-    margin-top:50px;
-    margin-left:500px;
+    margin-top:470px;
+    margin-left:160px;
     font-size: 30px;
+    color:white;
+    text-shadow: 2px 2px black;
 }
 
 #id4 {
-    margin-left:600px;
+    margin-left:250px;
     width: 70px;
     height: 70px;
+    background-color: #3b9cd6;
 }
 
 #id5{
     margin-top:5px;
-    margin-left: -75px;
+    margin-left: 255px;
     width: 70px;
     height: 70px;
+    
 }
 
 
@@ -244,6 +256,15 @@ nav {
     margin-top: 30px;
     font-size: 30px;
     width: 200px;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#pretrazi button:hover {
+ color:black;
+ text-shadow:none;
 }
 
 
