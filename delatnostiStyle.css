@@ -10,8 +10,6 @@
 }
 .white-mode{
     background-color: white;
-    
-    
 }
 .main {
     width: 100%;
@@ -21,7 +19,7 @@
     /*background: linear-gradient(to right, #3b3b40, #3eb9c6); */
 }
 
-.header {
+#header {
     position: fixed; /* Set the header to fixed position */
     top: 0;
     
@@ -43,8 +41,16 @@ nav {
     border-bottom-color: #3b9cd6;
 }
 
-.header button{
-    background-color: black;
+#dugme1{
+    background-color: rgb(13, 1, 29);
+    font-size: x-large;
+    color: #3b9cd6;
+    margin-right: 20px;
+    border-color:#3b9cd6;
+
+}
+#dugme2{
+    border-color:#3b9cd6;
     font-size: x-large;
     color: #3b9cd6;
     margin-right: 20px;
@@ -140,8 +146,28 @@ nav {
 .parent img{
     width: 450px;
     
+    
+    height: auto;
+    max-width: 450px;
 }
 
+/* #img1{
+    flex: 1;
+    padding: 30px;
+}
+
+#img1{
+    flex: 2;
+    padding: 30px;
+}
+#img1{
+    flex: 3;
+    padding: 30px;
+}
+#img1{
+    flex: 4;
+    padding: 30px;
+} */
 #div1{
     flex: 1; 
     padding: 30px;

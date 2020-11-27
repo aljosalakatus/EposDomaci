@@ -1,12 +1,14 @@
 function darkMode() {
     
-    let r=confirm('Zelite li da predjete u Tamni režim?');
+    let r=confirm('Želite li da predjete u tamni režim?');
     
   
   if (r == true) {
-    document.body.classList.toggle("dark-mode");
-   
+     
+    document.body.style.backgroundColor="rgb(13, 1, 29)";
+    document.getElementById("header").style.backgroundColor="rgb(13, 1, 29)";
     document.getElementById("dugme1").style.display="none"
+    document.getElementById("dugme2").style.display="block"
   }
     
     else{
@@ -17,10 +19,21 @@ function darkMode() {
     
   }
 
-  function handleButtonClick(){
-        let btn = document.getElementById("btn1")
-        btn.style.display="none"
-           
+ function whiteMode(){
+    let r=confirm('Želite li da predjete u svetli režim?');
+    
+  
+    if (r == true) {
+      document.body.style.backgroundColor="white";
+      document.getElementById("header").style.backgroundColor="white";
+      document.getElementById("dugme2").style.display="none"
+      document.getElementById("dugme1").style.display="block"
     }
+      
+      else{
+          return;
+      }
+
+ }
   
 

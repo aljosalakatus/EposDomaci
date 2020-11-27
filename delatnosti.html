@@ -10,7 +10,7 @@
 <body>
     <div class="main">
 
-        <nav class="header">
+        <nav id="header">
             <div class="logo">
                 <a href="index.html">
                 <img src="images/logo.png"/>
@@ -26,7 +26,8 @@
                 </ul>
                 
             </div>
-            <button onclick="darkMode(); whiteMode()" id="dugme1">Tamni režim</button>
+            <button onclick="darkMode()" id="dugme1">Tamni režim</button>
+            <button onclick="whiteMode()" id="dugme2" hidden=true>Svetli režim</button>
         </nav>
 
         <div id="prviDiv">
@@ -39,22 +40,22 @@
 
             <div id="div1">
                <h2>Sečenje limova</h2> 
-                <img src="images/plazma.jpg" alt="">
+                <img src="images/plazma.jpg" id="img1">
             </div>
             <div id="div2">
                <h2>Varenje</h2> 
-                <img src="images/robot.jpg" alt="">
+                <img src="images/robot.jpg" id="img2">
             </div>
            
 
             <div id="div3">
                 <h2>Savijanje limova</h2>
-                <img src="images/savijanje.jpg" alt="">
+                <img src="images/savijanje.jpg" id="img3">
             </div>
     
              <div id="div4">
                  <h2> Mašinska obrada</h2>
-                <img src="images/strug.jpg" alt="">
+                <img src="images/strug.jpg" id="img4">
              </div>
     
               
