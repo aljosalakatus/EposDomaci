@@ -136,7 +136,7 @@ nav {
     text-shadow: 2px 2px black;
 }
 
- /* #id4 {
+  /* #id4 {
     margin-left:350px;
     width: 70px;
     height: 70px;
@@ -151,17 +151,39 @@ nav {
     
 }
 
+.div25 {
+    display:flex;
+    flex-direction: column;
+    min-width: 100vw;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background: linear-gradient(to right,rgb(94, 162, 240) ,rgb(59, 171, 216));
+    border-top-style: solid;
+    border-top-width:2px; 
+    border-top-color:white;
+    border-bottom-style: solid;
+    border-bottom-width:2px; 
+    border-bottom-color:white;
+}
 
+#p25 {
+    color:white;
+    font-size:30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
 
 .div3 {
     display:flex;
     flex-direction: column;
     min-width: 100vw;
-    height: 650px;
+    height: 600px;
     /* margin-top: 60px;
     margin-left: 40px; */
     background-image: url("images/shop.png");
-    background-size: 100vw 650px;
+    background-size: 100vw 600px;
     background-repeat: no-repeat; 
     
     
@@ -173,7 +195,7 @@ nav {
 }
 
 .div3 form {
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 250px;
 }
 
@@ -211,12 +233,15 @@ nav {
 #adresa {
     display:flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 10px;
     margin-left:80px;
 }
 
 #adresa textarea{
     resize: none;
+    font-size: 25px;
+    width: 350px;
+    height: 33px;
 }
 
 #adresa label {
@@ -237,6 +262,9 @@ nav {
 
 #cena textarea{
     resize: none;
+    font-size: 25px;
+    height: 33px;
+    width: 150px;
 }
 
 #cena label {
@@ -251,6 +279,9 @@ nav {
 
 #rok textarea{
     resize: none;
+    font-size: 25px;
+    height: 33px;
+    width: 180px;
 }
 
 #rok label {
