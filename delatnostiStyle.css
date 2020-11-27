@@ -99,10 +99,10 @@ nav {
 } */
 
 #prviDiv{
+
     text-align: center;
     
     text-shadow: rgb(2, 2, 46);
-    
     color: rgb(5, 5, 128);
     background-color: rgb(56, 130, 190);
     width: 100%;
@@ -110,6 +110,3 @@ nav {
    
 }
 
-#prviDiv h1{
-   padding-top: 10px;
-}
