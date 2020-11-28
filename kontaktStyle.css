@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    height: 160vh;
+    height: 155vh;
     position: relative;
     overflow: hidden;
     
@@ -160,14 +160,36 @@ nav {
     margin-top: 20px;
 }
 
+#poruka{
+    font-size: 15px;
+    resize: none;
+}
+
+#imee{
+    font-size: 15px;
+    resize: none;
+}
+
+#email{
+    width: 420px;
+    height: 20px;
+}
+
+
+#broj{
+    font-size:15px;
+    resize: none;
+}
+
 button {
     padding: 10px 15px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top:20px;
     background: #171e30;
     color: white;
     font-size: 18px;
     border: 0;
+    width: 200px;
 }
 
 footer{
@@ -194,7 +216,7 @@ footer img{
     height:50px;
 }
 #f1{
-    width:50%;
+    width:40%;
     display:flex;
     text-align: left;
     vertical-align: middle;
@@ -204,7 +226,7 @@ footer img{
 
 }
 #f2,#f3{
-    width:25%;
+    width:30%;
     display: flex;
     text-align: left;
     vertical-align: middle;
@@ -218,5 +240,4 @@ footer img{
     text-align: right;
     color:white;
     background-color: #003366;
-
 }
