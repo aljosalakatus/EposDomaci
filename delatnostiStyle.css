@@ -4,7 +4,8 @@
     
 }
 .dark-mode{
-    background-color: rgb(13, 1, 29);
+    background-color:rgb(13, 1, 29);
+    /* rgb(13, 1, 29) */
     
     
 }
@@ -121,9 +122,80 @@ nav {
 
 #tata{
     margin-top: 100px;
-}
-
-#text1{
-    resize: none;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
     
 }
+
+
+
+#dugme3{
+
+height: 15vh;
+margin-top: 250px;
+margin-right: 10px;
+
+background-color:#3b9cd6 ;
+border-radius: 200px;
+width: 120px;
+
+
+}
+
+#slika1{
+   
+    height: 80vh;
+}
+
+#dugme4{
+    
+    height: 15vh;
+    margin-top: 250px;
+    margin-left: 10px;
+    background-color:#3b9cd6 ;
+    border-radius: 200px;
+width: 120px;
+
+
+    }
+
+    #textDiv{
+        display: flex;
+        justify-content: center;
+        background-color: #3b9cd6;
+        height: 55vh;
+        width: 50%;
+        margin-left: 380px;
+        
+    }
+
+    #naslof{
+        width: 90%;
+        text-align: center;
+        margin-top: 150px;
+        color: white;
+        /* background-color: rgb(13, 1, 29) ; */
+        height: 80px;
+
+    }
+
+    #text1{
+        resize: none;
+        /* text-align: center; */
+        font-size: 25px;
+        color: white;
+        border:transparent;
+
+        background-color: transparent;
+        margin-top: 30px;
+        text-decoration: rgb(13, 1, 29);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+        
+        
+    
+    }
