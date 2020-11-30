@@ -128,6 +128,7 @@ nav {
     padding: 30px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -136,12 +137,12 @@ nav {
 #dugme3{
 
 height: 15vh;
-margin-top: 250px;
+/* margin-top: 250px; */
 margin-right: 10px;
 
 background-color:#3b9cd6 ;
 border-radius: 200px;
-width: 120px;
+width: 15vh;
 
 
 }
@@ -154,11 +155,11 @@ width: 120px;
 #dugme4{
     
     height: 15vh;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     margin-left: 10px;
     background-color:#3b9cd6 ;
     border-radius: 200px;
-width: 120px;
+width: 15vh;
 
 
     }
@@ -169,14 +170,15 @@ width: 120px;
         background-color: #3b9cd6;
         height: 55vh;
         width: 100%;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
+        align-items: center;
         
     }
 
     #naslof{
         width: 90%;
         text-align: center;
-        margin-top: 150px;
+        /* margin-top: 150px; */
         color: white;
         /* background-color: rgb(13, 1, 29) ; */
         height: 80px;
@@ -191,7 +193,7 @@ width: 120px;
         border:transparent;
 
         background-color: transparent;
-        margin-top: 30px;
+        /* margin-top: 30px; */
         text-decoration: rgb(13, 1, 29);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         
