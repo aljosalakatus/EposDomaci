@@ -1,73 +1,111 @@
 
-function skrol() {
-    document.getElementById("id4").addEventListener("click", myFunction);
-}
+function podaci() {
+   var int1 = document.getElementById("kolicina1").value;
+   
+    var str1= document.getElementById("proizvod1").value;
 
-function myFunction() {
-    window.scrollBy(0,1000);
-  }
+    var str2 = document.getElementById("adresa1").value;
+    console.log(str2);
 
-function prikaz() {
-    document.getElementsByClassName("div22").style.opacity("1");
-}
+   if(str1.includes("zupčanici")) {
+     
 
+       if(int1>0 & int1< 1000) {
+       alert("Proizvod je dostupan");
+       var cena = 2*int1;
+       document.getElementById("cena1").value=cena + "€";
+       document.getElementById("rok1").value="do 5 dana";
+       }
+       else {
+        alert("Proizvod nije dostupan u toj kolicini");
+        document.getElementById("cena1").value="";
+       document.getElementById("rok1").value="";
+       }
+   }
 
-/* window.smoothScroll = function(target) {
-    var scrollContainer = target;
-    do { //find scroll container
-        scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
-        scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
-
-    var targetY = 0;
-    do { //find the top of target relatively to the container
-        if (target == scrollContainer) break;
-        targetY += target.offsetTop;
-    } while (target = target.offsetParent);
-
-    scroll = function(c, a, b, i) {
-        i++; if (i > 30) return;
-        c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+   if(str1.includes("lančanici")) {
+    if(int1>0 & int1< 1000) {
+    alert("Proizvod je dostupan");
+    var cena = 3*int1;
+    document.getElementById("cena1").value=cena + "€";
+    document.getElementById("rok1").value="5-7 dana";
     }
-    // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-} */
-
-/* 
-var smoothScroll = function(elementId) {
-    var MIN_PIXELS_PER_STEP = 16;
-    var MAX_SCROLL_STEPS = 30;
-    var target = document.getElementById(elementId);
-    var scrollContainer = target;
-    do {
-        scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
-        scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
-
-    var targetY = 0;
-    do {
-        if (target == scrollContainer) break;
-        targetY += target.offsetTop;
-    } while (target = target.offsetParent);
-
-    var pixelsPerStep = Math.max(MIN_PIXELS_PER_STEP,
-                                 (targetY - scrollContainer.scrollTop) / MAX_SCROLL_STEPS);
-
-    var stepFunc = function() {
-        scrollContainer.scrollTop =
-            Math.min(targetY, pixelsPerStep + scrollContainer.scrollTop);
-
-        if (scrollContainer.scrollTop >= targetY) {
-            return;
+    else {
+     alert("Proizvod nije dostupan u toj kolicini");
+     document.getElementById("cena1").value="";
+    document.getElementById("rok1").value="";
+    }
+   }
+    if(str1.includes("osovine")) {
+        if(int1>0 & int1< 300) {
+        alert("Proizvod je dostupan");
+        var cena = 5*int1;
+        document.getElementById("cena1").value=cena + "€";
+        document.getElementById("rok1").value="8-10 dana";
         }
-
-        window.requestAnimationFrame(stepFunc);
-    };
-
-    window.requestAnimationFrame(stepFunc);
+        else {
+         alert("Proizvod nije dostupan u toj kolicini");
+         document.getElementById("cena1").value="";
+        document.getElementById("rok1").value="";
+        }
 }
 
-*/
+if(str1.includes("savijeni_limovi")) {
+    if(int1>0 & int1< 100) {
+    alert("Proizvod je dostupan");
+    var cena = 15*int1;
+    document.getElementById("cena1").value=cena + "€";
+    document.getElementById("rok1").value="7-10 dana";
+    }
+    else {
+     alert("Proizvod nije dostupan u toj kolicini");
+     document.getElementById("cena1").value="";
+    document.getElementById("rok1").value="";
+    }
+}
+
+if(str1.includes("ograde")) {
+    if(int1>0 & int1< 10) {
+    alert("Proizvod je dostupan");
+    var cena = 300*int1;
+    document.getElementById("cena1").value=cena + "€";
+    document.getElementById("rok1").value="do 21 dan";
+    }
+    else {
+     alert("Proizvod nije dostupan u toj kolicini");
+     document.getElementById("cena1").value="";
+    document.getElementById("rok1").value="";
+    }
+}
+
+if(str1.includes("police")) {
+    if(int1>0 & int1< 50) {
+    alert("Proizvod je dostupan");
+    var cena = 30*int1;
+    document.getElementById("cena1").value=cena + "€";
+    document.getElementById("rok1").value="do 14 dana";
+    }
+    else {
+     alert("Proizvod nije dostupan u toj kolicini");
+     document.getElementById("cena1").value="";
+    document.getElementById("rok1").value="";
+    }
+}
+
+if(str1.includes("stolovi")) {
+    if(int1>0 & int1< 20) {
+    alert("Proizvod je dostupan");
+    var cena = 50*int1;
+    document.getElementById("cena1").value=cena + "€";
+    document.getElementById("rok1").value="do 14 dana";
+    }
+    else {
+     alert("Proizvod nije dostupan u toj kolicini");
+     document.getElementById("cena1").value="";
+    document.getElementById("rok1").value="";
+    }
+}
+
+}
+
+
