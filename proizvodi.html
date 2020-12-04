@@ -29,20 +29,23 @@
             <button onclick="darkMode()" id="dugme1">Tamni režim</button>
             <button onclick="whiteMode()" id="dugme2" hidden=true>Svetli režim</button>
         </nav>
+        <div class="forma">
+            <div id="error"></div>
+            <form id="form">
 
-           <div class="login">
-               <div class="form">
-                   <form class="reg-form">
-
-<input type="text" placeholder="ime">
-<input type="text" placeholder="password">
-<input type="text" placeholder="email">
-<button>Napravi</button>
-
-                   </form>
-               </div>
-           </div>
-              
+                <div>
+                    <label for="ime">Ime</label>
+                    <br>
+                    <input type="name" id="ime" type="text">
+                </div>
+                <div>
+                    <label for="password">Lozinka</label>
+                    <br>
+                    <input id="lozinka" type="password" type="text">
+                </div>
+                <button type="submit">Pošalji</button>
+            </form>
+        </div>  
         </div>
 
          
