@@ -9,6 +9,7 @@ function darkMode() {
     document.getElementById("header").style.backgroundColor="rgb(13, 1, 29)";
     document.getElementById("dugme1").style.display="none"
     document.getElementById("dugme2").style.display="block"
+    console.log("asdads")
   }
     
     else{
@@ -36,32 +37,34 @@ function darkMode() {
       }
   
   }
+  let nizUsername = [];
+  let nizLozinka = [];
 
-  const name=document.getElementById('ime')
-  //let password = document.getElementById('lozinka').value
-  console.log(name)
-  // const form = document.getElementById('form')
-  // console.log(form.password)
+ function login(){
+   
+   
+   let ime=document.getElementById('ime').value;
+   let lozinka=document.getElementById('lozinka').value;
+   
+   if(nizUsername.includes(ime) || nizLozinka.includes(lozinka)){
+     alert("Ime ili lozinka vec postoje u bazi");
+   }
+   else if(ime==null || ime.length<=5 || lozinka==null || lozinka.length<=5){
+    alert("Ime ili lozinka moraju biti duzi od 5 karaktera");
 
-  // const errorElement = document.getElementById('error')
-  // form.addEventListener('submit', (e) => {
-  //   let messeges = []
-  //   if ( name.value === '' || name.value==null){
-  //     messages.push('Popuniti polje ime')
-  //   }
-  //   if(password.value.length<=6){
-  //     //messeges.push('Lozinka mora da ima više od 6 karaktera')
-  //     let aler= alert("lozinka mora biti duza od 6")
-  //   }
-  //   if(password.value.length<=15){
-  //     messeges.push('Lozinka mora da ima manje od 15 karaktera')
-  //   }
-  //   if (password.value === 'lozinka'){
-  //     messages.push('Lozinka ne sme biti \'lozinka\' ')
-  //   }
-  //   if(messages.length > 0){
-  //     e.preventDefault()
-  //     errorElement.innerText=messeges.join(', ')
-  //   }
-  //   e.preventDefault()
-  // })
+   }
+   else {
+     alert("Uspesno uneto ime i lozinka")
+     nizUsername.push(ime);
+     nizLozinka.push(lozinka);
+     document.getElementById('ime').value="";
+     document.getElementById('lozinka').value="";
+
+   }
+   
+   
+   console.log(nizUsername)
+   
+   console.log(nizLozinka)
+
+ }
