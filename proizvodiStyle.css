@@ -133,6 +133,20 @@ nav {
     margin-top: 15vh;
     display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: row;
+         align-items: center; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        align-content: center;
 }
+
+/* #div1{
+   width: 100%; 
+   
+}
+#div2{
+    width: 100%;
+}
+
+#dugme3{
+   flex: auto;
+} */
