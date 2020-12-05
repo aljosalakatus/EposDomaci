@@ -2,11 +2,12 @@
 
   function posalji(){
 
-    var poruka = document.getElementById("porukaa").length;
+    let poruka = document.getElementById('porukaa').value;
 
-    if(poruka < 10){
+    if(poruka.length < 10){
         alert('Poruka mora imati barem 10 slova!');
         return;
     }
     
+
   }
