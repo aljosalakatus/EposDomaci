@@ -133,7 +133,7 @@ nav {
     margin-top: 25vh;
     display: flex;
     width: 500px;
-    height: 390px;
+    /* height: 490px; */
     margin-left:400px;
         flex-direction: column; 
         flex-wrap: wrap;
