@@ -137,6 +137,9 @@ nav {
         flex-direction: row; 
         flex-wrap: wrap;
         align-content: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         /* margin-left: 50vh;
         margin-right: 50vh; */
         /* padding-top: 20px; */
