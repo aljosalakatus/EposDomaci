@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="kontaktStyle.css">
-    <script src="kontaktJS.js"></script>
+    <script src="./kontaktJS.js"></script>
 </head>
 <body>
     <div class="main">
@@ -52,12 +52,13 @@
                 <form id="kontaktForma">
                     <div>
                         <label for="ImePrezime">Vaše ime i prezime:</label> <br>
-                        <textarea id="imee" type="text" cols="50" rows="1"> </textarea>
+                        <input type="text" id="imee" />
                     </div>
 
                     <div>
                         <label for="broj">Vaš broj telefona:</label> <br>
-                        <textarea id="broj" type="text" cols="50" rows="1"> </textarea>
+                        <input type="tel" id="broj-telefona" class="br" required placeholder="06x-xxx-xx-xx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+                        <!-- <textarea id="broj" type="text" cols="50" rows="1" required></textarea> -->
                     </div>
 
                     <div>
@@ -86,7 +87,7 @@
                 <div id="f1">
                     <img style="margin-top:10px" src="images/logo.png" 
                     alt="General Solutions logo" data-pagespeed-url-hash="381256136" 
-                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    >
 
                 </div>
                 <div id="f2">

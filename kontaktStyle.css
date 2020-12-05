@@ -160,14 +160,16 @@ nav {
     margin-top: 20px;
 }
 
-#poruka{
+#porukaa{
     font-size: 15px;
     resize: none;
 }
 
+
 #imee{
     font-size: 15px;
-    resize: none;
+    
+    width: 420px;
 }
 
 #email{
@@ -176,9 +178,10 @@ nav {
 }
 
 
-#broj{
+#broj-telefona{
     font-size:15px;
-    resize: none;
+    width:420px;
+    
 }
 
 button {
