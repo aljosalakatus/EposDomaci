@@ -132,7 +132,59 @@ nav {
 .forma{
     margin-top: 15vh;
     display: flex;
+        /* justify-content: center; */
+         /* align-items: center;  */
+        flex-direction: row; 
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        /* margin-left: 50vh;
+        margin-right: 50vh; */
+        /* padding-top: 20px; */
+}
+
+#div1{
+   width: 100%; 
+   margin-top: 20px;
+   
+}
+#div2{
+   margin-top: 20px;
+
+    width: 100%;
+}
+
+#dugme3{
+    margin-top: 20px;
+
+   width: 100px;
+   height: 45px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: xx-large;
+   border-radius: 5px;
+   background-color: white;
+   color:#3b9cd6 ;
+} 
+#dugme3:hover{
+    background-color:#3b9cd6;
+    color:white;
+    border-radius: 5px;
+}
+
+.labela{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: xx-large;
+   color:#3b9cd6 ;
+   border-color: #3b9cd6;
+
+}
+
+#ime{
+    border-color: #3b9cd6;
+}
+
+#lozinka{
+    border-color: #3b9cd6;
 }
