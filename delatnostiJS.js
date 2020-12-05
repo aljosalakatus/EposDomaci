@@ -11,8 +11,9 @@ if (r == true) {
   document.getElementById("dugme2").style.display="block"
   document.getElementById("dugme3").style.backgroundColor="transparent";
   document.getElementById("dugme4").style.backgroundColor="transparent";
-  document.getElementById("textDiv").style.backgroundColor="#0c2838";
+  /* document.getElementById("textDiv").style.backgroundColor="#0c2838"; */
   // document.getElementById("textDiv").style.color="#3b9cd6";
+  document.getElementById("text1").style.color="white";
   document.getElementById("naslov").style.color="white";
 
 
@@ -37,7 +38,8 @@ function whiteMode(){
     document.getElementById("dugme1").style.display="block"
   document.getElementById("dugme4").style.backgroundColor="#3b9cd6";
   document.getElementById("dugme3").style.backgroundColor="#3b9cd6";
-  document.getElementById("textDiv").style.backgroundColor="#3b9cd6";
+  /* document.getElementById("textDiv").style.backgroundColor="#3b9cd6"; */
+  document.getElementById("text1").style.color=" black";
   document.getElementById("naslov").style.color="black";
 
 
