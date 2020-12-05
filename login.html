@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delatnosti</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <script src="loginJS.js"></script>
+</head>
+<body>
+    <div class="main">
+
+        <nav id="header">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/logo.png"/>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li> <a href="index.html">Početna</a></li>
+                    <li> <a href="delatnosti.html">Delatnosti</a></li>
+                    <li> <a href="login.html">Login</a></li>
+                    <li> <a href="proizvodi.html">Proizvodi</a></li>
+                    <li> <a href="kontakt.html">Kontakt</a></li>
+                    
+                </ul>
+                
+            </div>
+            <button onclick="darkMode()" id="dugme1">Tamni režim</button>
+            <button onclick="whiteMode()" id="dugme2" hidden=true>Svetli režim</button>
+        </nav>
+        <div class="forma">
+           
+            <h2 id="naslov12" style="color:#3b9cd6">Prijavite se koristeci vase ime i lozinku</h2>
+            <br>
+
+                <div id="div1">
+                    <label for="ime" class="labela">Ime</label>
+                    <br>
+                    <input type="name" id="ime" type="text">
+                </div>
+                <div id="div2">
+                    <label for="password" class="labela">Lozinka</label>
+                    <br>
+                    <input id="lozinka" type="password" type="text">
+                </div>
+                
+                <div id="div3">
+                    <input type="checkbox" style="color:#3b9cd6 ">Zapamti me
+                    <button onclick="login()" id="dugme3" >Login</button>
+
+                </div>
+
+                <div id="div4">
+                    <div>
+                        <a  href="#" id="div41">
+                            Zaboravili ste lozinku?
+                        </a>
+                    </div>
+
+                    <div>
+                        <a  href="#" id="div42">
+                            Novi korisnik													
+                        </a>
+                    </div>
+                </div>
+                
+            
+        </div>  
+        </div>
+
+         
+</body>
+</html>
