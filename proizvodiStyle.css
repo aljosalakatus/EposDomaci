@@ -177,5 +177,14 @@ nav {
     font-family: 'Times New Roman', Times, serif;
    font-size: xx-large;
    color:#3b9cd6 ;
+   border-color: #3b9cd6;
 
+}
+
+#ime{
+    border-color: #3b9cd6;
+}
+
+#lozinka{
+    border-color: #3b9cd6;
 }
