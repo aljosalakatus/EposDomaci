@@ -185,11 +185,16 @@ button {
     padding: 10px 15px;
     margin-left: 160px;
     margin-top:20px;
-    background: blue;
-    color: white;
-    font-size: 18px;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
     border: 0;
     width: 200px;
+}
+
+button:hover{
+    background-color: black;
+    color: blue;
 }
 
 footer{
