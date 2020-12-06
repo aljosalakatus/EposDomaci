@@ -101,6 +101,7 @@ nav {
 }
  h3{
      font-size: 40px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      border-radius: 10px;
     color: blue;
  }
@@ -160,14 +161,16 @@ nav {
     margin-top: 20px;
 }
 
-#poruka{
+#porukaa{
     font-size: 15px;
     resize: none;
 }
 
+
 #imee{
     font-size: 15px;
-    resize: none;
+    
+    width: 420px;
 }
 
 #email{
@@ -176,9 +179,10 @@ nav {
 }
 
 
-#broj{
+#broj-telefona{
     font-size:15px;
-    resize: none;
+    width:420px;
+    
 }
 
 button {
