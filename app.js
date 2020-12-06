@@ -7,7 +7,11 @@ function podaci() {
     var str2 = document.getElementById("adresa1").value;
     console.log(str2);
 
-   if(str1.includes("zupčanici")) {
+    if(str2 == "") {
+        alert("Unesite Adresu!");
+    }
+
+   else if(str1.includes("zupčanici")) {
      
 
        if(int1>0 & int1< 1000) {
@@ -23,7 +27,7 @@ function podaci() {
        }
    }
 
-   if(str1.includes("lančanici")) {
+   else if(str1.includes("lančanici")) {
     if(int1>0 & int1< 1000) {
     alert("Proizvod je dostupan");
     var cena = 3*int1;
@@ -36,7 +40,7 @@ function podaci() {
     document.getElementById("rok1").value="";
     }
    }
-    if(str1.includes("osovine")) {
+    else if(str1.includes("osovine")) {
         if(int1>0 & int1< 300) {
         alert("Proizvod je dostupan");
         var cena = 5*int1;
@@ -50,7 +54,7 @@ function podaci() {
         }
 }
 
-if(str1.includes("savijeni_limovi")) {
+else if(str1.includes("savijeni_limovi")) {
     if(int1>0 & int1< 100) {
     alert("Proizvod je dostupan");
     var cena = 15*int1;
@@ -64,7 +68,7 @@ if(str1.includes("savijeni_limovi")) {
     }
 }
 
-if(str1.includes("ograde")) {
+else if(str1.includes("ograde")) {
     if(int1>0 & int1< 10) {
     alert("Proizvod je dostupan");
     var cena = 300*int1;
@@ -78,7 +82,7 @@ if(str1.includes("ograde")) {
     }
 }
 
-if(str1.includes("police")) {
+else if(str1.includes("police")) {
     if(int1>0 & int1< 50) {
     alert("Proizvod je dostupan");
     var cena = 30*int1;
@@ -92,7 +96,7 @@ if(str1.includes("police")) {
     }
 }
 
-if(str1.includes("stolovi")) {
+else if(str1.includes("stolovi")) {
     if(int1>0 & int1< 20) {
     alert("Proizvod je dostupan");
     var cena = 50*int1;
