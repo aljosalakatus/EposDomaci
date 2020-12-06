@@ -11,7 +11,7 @@
 
     if(ime == ""){
       alert('Unesite Vaše ime i prezime');
-      
+      return false;
       /* document.getElementById('broj-telefona').value=br;
       document.getElementById('email').value=email;
       document.getElementById('porukaa').value=poruka; */
@@ -26,7 +26,7 @@
         alert('Poruka mora imati barem 10 slova!'); 
     }
     
-    if(ime !== "" && br !== "" && poruka.length >= 10 && provera.test(email) && provera2.test(br)){
+    else if(ime !== "" && br !== "" && poruka.length >= 10 && provera.test(email) && provera2.test(br)){
       alert('Informacije su unete. Hvala na interesovanju!');
     }
 
