@@ -134,7 +134,8 @@ nav {
     display: flex;
     width: 500px;
     /* height: 490px; */
-    margin-left:400px;
+
+        margin-left:70vh;
         flex-direction: column; 
         flex-wrap: wrap;
         align-content: center;
