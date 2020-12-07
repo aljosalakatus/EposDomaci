@@ -5,10 +5,12 @@
 
 .main {
     width: 100%;
-    height: 223vh;
-    position: relative;
+    /* height: 223vh; 1*/
+    /*position: relative; 1*/
     overflow: hidden;
     /*background: linear-gradient(to right, #3b3b40, #3eb9c6); */
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -22,7 +24,7 @@ nav {
     position: relative;
     z-index: 1; 
     display: flex;
-    margin: 0;
+    /*margin: 0; 1*/
     align-items:center;
     background-color: white;
     /* background: linear-gradient(to right,rgb(108, 109, 110) ,rgb(165, 169, 172)); */
@@ -53,13 +55,13 @@ nav {
     flex-direction: row;
     flex-basis: 40px;
     list-style: none; 
-    margin-left: 600px;
+    /* margin-left: 600px; */
     font-size: 30px;
     font-weight: lighter;
     padding: 5px;
     border-radius: 4px;
     background-color: transparent;
-    
+    justify-content: flex-end;
     
 
 }
@@ -85,9 +87,10 @@ nav {
 
 .div2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     min-width: 100vw;
-    height: 700px;
+     height: 700px; 
     font-size: 30px;
     background-repeat: no-repeat;
     background-image: url('images/weld1.jpg');
@@ -100,7 +103,7 @@ nav {
 
 .div22  {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     margin-left: 50px;
     margin-top: 300px;
     width: 400px;
@@ -129,8 +132,10 @@ nav {
 }
 
 #id3{
+    display: flex;
+    justify-content: center;
     margin-top:470px;
-    margin-left:160px;
+    margin-right:70vh;
     font-size: 30px;
     color:white;
     text-shadow: 2px 2px black;
@@ -144,10 +149,13 @@ nav {
 } */
 
 #id5{
+    display: flex;
+    justify-content: center;
     margin-top:5px;
-    margin-left: 255px;
+    margin-left: 0px;
     width: 70px;
     height: 70px;
+    margin-left:25vh;
     
 }
 
@@ -179,7 +187,7 @@ nav {
     display:flex;
     flex-direction: column;
     min-width: 100vw;
-    height: 600px;
+     height: 600px; 
     /* margin-top: 60px;
     margin-left: 40px; */
     background-image: url("images/shop.png");
@@ -202,6 +210,10 @@ nav {
 #first_row {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right:40vh;
+
 }
 
 #proizvod {
@@ -252,6 +264,9 @@ nav {
 #second_row {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 60vh;
     margin-top: 50px;
 }
 
@@ -307,7 +322,8 @@ nav {
 
 footer{
     display:flex;
-    height:200px;
+    flex-direction: column;
+    /* height:200px; */
     width:100%;
     margin:0px;
     background-color: #003366;
@@ -327,17 +343,17 @@ footer img{
     height:50px;
 }
 #f1{
-    width:50%;
-    display:flex;
-    text-align: left;
-    vertical-align: middle;
+    width:40%;
+    /*! display:flex; */
+    /*! text-align: left; */
+    /*! vertical-align: middle; */
     padding: 20px;
-    margin-left:200px;
+    /*! margin-left:200px; */
     
 
 }
 #f2,#f3{
-    width:25%;
+    width:30%;
     display: flex;
     text-align: left;
     vertical-align: middle;
