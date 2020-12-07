@@ -1,4 +1,3 @@
 # EposDomaci
 
-Morate da klonujete git sa folderom gde ste skinuli kod, 
-svaki put kada ocete da menjate kod morate da udjete preko gita u njega i nakon zavrsavanja ukucate Quick Update i idete commit to master
+Pozicinorianje stranice Kontakt izvršeno je korišćenjem korišćenjem Flexbox-a. Sa leve strane korisnik može videti osnovne informacije. Slike koje predstavljaju logo društvenih mreža linkovane su i klikom na njih korisnik odlazi na Instagram ili Facebook stranicu kompanije. Tag <iframe> korišćen je da se u okviru naše veb stranice učita druga, odnosno mapa sa GoogleMaps. U desnom delu stranice nalazi se kontakt forma. Ukoliko korisnik ne popuni neko polje putem alert-a dobija informaciju da je neopdhodno da ga popuni. Pomoću atributa <placeholder> u input poljima se nalazi tekst koji će pisati u polju dok korisnik ne unese neku vrednost, a takođe ukazuje na očekivani format. Atribut <pattern> definiše format broja telefona koji korisnik treba da unese kako bi forma uspešno prošla validaciju. Kada korisnik popuni sva polja u formi u očekivanom formatu dobija informaciju putem alert-a.
