@@ -130,12 +130,13 @@ nav {
 }
 
 .forma{
-    margin-top: 25vh;
+    
     display: flex;
     width: 500px;
     /* height: 490px; */
 
-        margin-left:70vh;
+        margin:auto;
+        margin-top: 25vh;
         flex-direction: column; 
         flex-wrap: wrap;
         align-content: center;

@@ -68,16 +68,7 @@ function darkMode() {
    console.log(nizLozinka)
 
 
-   $(document).ready(function(){
-
-    $('#example1').bind('click',function(e) {
-      
-        e.preventDefault();
-        $.Zebra_Dialog('The link was clicked!');
-      
-      }); 
-
-  });
+   
 
    
 

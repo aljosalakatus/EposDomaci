@@ -8,11 +8,12 @@
     <script src="./kontaktJS.js"></script>
 </head>
 <body>
+    
     <div class="main">
         <nav class="header">
             <div class="logo">
                 <a href="index.html">
-                <img src="images/logo.png"/>
+                <img src="images/logo.png">
                 </a>
             </div>
             <div class="nav-links">
@@ -38,41 +39,40 @@
                           <br>  <p><b>Mail:</b> <br><a href="office@generalsolutions.rs">office@generalsolutions.rs</a></p>
                 
             </div>
+            
+            
             <div class="mreze">
                 <a href="https://www.instagram.com/general.solutions.sln/"><img class="social" src="images/ins.png"></a>
                 <a href="https://www.facebook.com/General-Solutions-SLN-1811046025880092/"><img class="social" src="images/fb.png"></a>
-            </div>
-            <div class="map"> 
+            </div><div class="map"> 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5603.738054078928!2d20.429615870390922!3d45.391812775972966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ac5b78dd72409%3A0xcb0d61095f3d33ae!2sGeneral%20Solutions!5e0!3m2!1sen!2srs!4v1592148797416!5m2!1sen!2srs" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            </div>
+            </div></div>
 
             <div class="forma">
                 <h3>Kontaktirajte nas</h3>
                 <form id="kontaktForma">
                     <div>
                         <label for="ImePrezime">Vaše ime i prezime:</label> <br>
-                        <input type="text" id="imee" />
+                        <input type="text" id="imee">
                     </div>
 
                     <div>
                         <label for="broj">Vaš broj telefona:</label> <br>
-                        <input type="tel" id="broj-telefona" class="br" required placeholder="06x-xxx-xx-xx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+                        <input type="tel" id="broj-telefona" class="br" required="" placeholder="06x-xxx-xx-xx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
                         <!-- <textarea id="broj" type="text" cols="50" rows="1" required></textarea> -->
                     </div>
 
                     <div>
                         <label for="kontaktMejl">Prijavite se za <i>Newsletter</i>:</label> <br>
-                        <input type="email" id="email" required placeholder="primer@gmail.com">
+                        <input type="email" id="email" required="" placeholder="primer@gmail.com">
                     </div>
 
                     <div>
-                        <input type="checkbox">Da li želite da dobijate obaveštenja jednom nedeljno?
-                    </div>
+                        <input type="checkbox">  Da li želite da dobijate obaveštenja jednom nedeljno?
+    </div>
 
-                    <div>
-                        <label for="poruka">Ukoliko imate pitanje ili poruku za kompaniju, napišite ovde:</label>
-                        <textarea id="porukaa" rows="15" cols="60"></textarea>
+                    <div style="display: flex;flex-direction: column;">
+                        <label for="poruka">Ukoliko imate pitanje ili poruku za kompaniju, napišite ovde:</label><textarea id="porukaa" name="poruka" rows="4"></textarea>
                     </div>
                     
                         <button type="submit" class="btn" onclick="return posalji()">Pošalji</button>
@@ -85,9 +85,7 @@
         <footer>
             <div id="footer_parent">
                 <div id="f1">
-                    <img style="margin-top:10px" src="images/logo.png" 
-                    alt="General Solutions logo" data-pagespeed-url-hash="381256136" 
-                    >
+                    <img style="margin-top:10px" src="images/logo.png" alt="General Solutions logo" data-pagespeed-url-hash="381256136">
 
                 </div>
                 <div id="f2">
@@ -109,16 +107,20 @@
 
             </div>
 
-            </div>
-
             <p class="autor"> 
-                General Solutions 2020. <a style="color:white;text-decoration: none;"  
-                target="_blank">Web master: Aljosa, Nikola, Gaga</a>
-            </p>
+                General Solutions 2020. <a style="color:white;text-decoration: none;" target="_blank">Web master: Aljosa, Nikola, Gaga</a>
+            </p></footer></div>
+
+            
                 
 
-        </footer>
-    </div>
+        
+    
+
+
+
 
 </body>
 </html>
+
+
