@@ -75,4 +75,11 @@ function darkMode() {
  }
 
 
+ $(document).ready(function(){ //koristi se kad se pokrene sajt
+  $("#main").quietflow({
+    theme : "vortex",
+    miniRadii : 40
+    })
 
+
+});
