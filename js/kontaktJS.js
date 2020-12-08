@@ -24,6 +24,7 @@
 
     else if(poruka.length < 10){
         alert('Poruka mora imati barem 10 slova!'); 
+        return false;
       
     }
     
