@@ -221,6 +221,7 @@ nav {
     flex-direction: column;
     font-size: 30px;
     margin-top: 20px;
+    justify-content: left;
     
 } 
 #proizvod select {
@@ -231,9 +232,10 @@ nav {
 #kolicina {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     font-size: 30px;
     margin-top: 20px;
-    margin-left:80px;
+    margin-left:40px; 
 }
 
 #kolicina input  {
@@ -246,7 +248,8 @@ nav {
     display:flex;
     flex-direction: column;
     font-size: 10px;
-    margin-left:80px;
+    margin-left:40px; 
+    justify-content: right;
 }
 
 #adresa textarea{
@@ -273,6 +276,7 @@ nav {
 #cena {
     display: flex;
     flex-direction: column;
+    justify-content: left;
 }
 
 #cena textarea{
@@ -289,7 +293,8 @@ nav {
 #rok {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    justify-content: center;
+    margin-left: 40px;
 }
 
 #rok textarea{
@@ -304,7 +309,8 @@ nav {
 }
 
 #pretrazi button {
-    margin-left: 80px; 
+    justify-content: right;
+    margin-left: 40px; 
     margin-top: 30px;
     font-size: 30px;
     width: 200px;

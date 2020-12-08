@@ -5,7 +5,7 @@ function podaci() {
     var str1= document.getElementById("proizvod1").value;
 
     var str2 = document.getElementById("adresa1").value;
-    console.log(str2);
+    
 
     if(str2 == "") {
         alert("Unesite Adresu!");
