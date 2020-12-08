@@ -1,18 +1,18 @@
 # EposDomaci
 
-Za domaci rad izabrali smo da napravimo sajt za kompaniju General Solutions. U pitanju je kompanija koja se bavi preradom metala i nalazi se u Zrenjaninu. Kompanija poseduje web sajt ali postoje velike mogucnosti za unapredjenje. Kroz naš rad predložilo smo neke ideje koje bi mogle biti dodate na web sajt kompanije.
+Za domaci rad izabrali smo da napravimo sajt za kompaniju General Solutions. U pitanju je kompanija koja se bavi preradom metala i nalazi se u Zrenjaninu. Kompanija poseduje web sajt ali postoje velike mogucnosti za unapredjenje. Kroz naš rad predložili smo neke ideje koje bi mogle biti dodate na web sajt kompanije.
 
 POČETNA
 
-Početna stranica se sastoji iz 4 dela, headera(meni), 2 celine i footera. Pozicioniranje je izvrseno pomocu flexboxa kako bi se postigla responzivnost. U donjem delu stranice nalazi se forma koja je zamisljenja kao protip online prodavnice. Korisnik treba da izabere proizvod, kolicinu i upise adresu, i na osnovu tih podataka ce dobiti informaciju o ceni kupovine i periodu eventualnog pristizanja. 
+Početna stranica se sastoji iz 4 dela, headera(meni), 2 celine i footera. Pozicioniranje je izvršeno pomoću flexboxa kako bi se postigla responzivnost. U donjem delu stranice nalazi se forma koja je zamišljenja kao protip online prodavnice. Korisnik treba da izabere proizvod, količinu i upiše adresu, i na osnovu tih podataka ce dobiti informaciju o ceni kupovine i periodu eventualnog pristizanja. 
 
 DELATNOSTI
 
-
+Na centru ove stranice je postavljena slika iznad koje stoji njen naslov, a ispod opis. U pitanju su slike koje prikazuju koje se delatnosti obavljaju u firmi. Levo i desno od slike delatnosti stoje slike leve i desne strelice. Klikom na neku od ovih strelica se poziva funkcija promeniSliku() ili promeniSlikuUnazad() koje menjaju slike, naslov i opis ispod slike. Kada se uđe na stranicu ne može se ići unazad, a takođe kad se stigne do poslednje slike nije omogućeno da se ide dalje. U hederu ove stranice se nalazi dugme "Tamni režim". Klikom na ovo dugme se menja boja pozadine i svojstva različitih elemenata, tako da budu prilagođeni tamnom režimu rada. Takođe, dugme "Tamni režim" nestaje, a pojavljuje se dugme "Svetli režim". Klikom na dugme "Svetli režim" stranica se vraća u prvobitno stanje. Sve ove funkcionalnosti su odrađene u JS-u.
 
 LOGIN
 
-U okviru ove stranice nalazi se forma preko koje bi korisnici trebali da se prijave na websajt. Prijava se izvrsava pomocu unosenja imena i lozinke.  Ova stranica kao i stranica delatnosti poseduje mogucnost prelaska u tamni režim. Za pozadinu su koriscene funkcionalnosti JQuery Plugin-a.
+U okviru ove stranice nalazi se forma preko koje bi korisnici trebali da se prijave na websajt. Prijava se izvršava pomoću unošenja imena i lozinke.  Ova stranica kao i stranica delatnosti poseduje mogućnost prelaska u tamni režim. Za pozadinu su korišćene funkcionalnosti JQuery Plugin-a.
 
 KONTAKT
 
