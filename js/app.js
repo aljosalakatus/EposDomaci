@@ -1,9 +1,8 @@
 
 function podaci() {
-   var int1 = document.getElementById("kolicina1").value;
-   
-    var str1= document.getElementById("proizvod1").value;
 
+    var int1 = document.getElementById("kolicina1").value; 
+    var str1= document.getElementById("proizvod1").value;
     var str2 = document.getElementById("adresa1").value;
     
 
